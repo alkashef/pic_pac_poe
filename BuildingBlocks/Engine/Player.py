@@ -1,11 +1,9 @@
 from Engine import possibilities
-# import random
 
 
 def random_player(board, player):
-    # Play turn randomly
+    # Play turn in sequential order
     selection = possibilities(board)
-#   current_loc = random.choice(selection)
     current_loc = selection[0]
     board[current_loc] = player
     return board
