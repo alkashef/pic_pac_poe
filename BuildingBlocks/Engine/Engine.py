@@ -3,13 +3,13 @@ import numpy as np
 
 def create_board():
     # Creates an empty board
-    return np.zeros((3, 3)).astype(int)
+    return np.full((3, 3), -10).astype(int)
 
 
 def possibilities(board):
     # Empty slots vector of tuples
-    a = (((np.where(board.flatten() == 0)[0]/3)).astype(int),
-         np.where(board.flatten() == 0)[0].astype(int))
+    a = (((np.where(board.flatten() == -10)[0]/3)).astype(int),
+         np.where(board.flatten() == -10)[0].astype(int))
     return list(zip(a[0], (a[1] - 3*a[0])))
 
 
@@ -34,6 +34,6 @@ def evaluate_tial(test_board):
         return diagonal_min
     if diagonal_mirror_min == diagonal_mirror_max:
         return diagonal_mirror_min
-    if test_board.flatten()[np.where(test_board.flatten() != 0)].size == 9:
+    if test_board.flatten()[np.where(test_board.flatten() != -10)].size == 9:
         return(-1)
-    return 0
+    return -10

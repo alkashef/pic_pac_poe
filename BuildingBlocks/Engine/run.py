@@ -4,8 +4,8 @@ from Player import player_dict
 
 def play_game(player_type_dict):
     # Main function to play one game
-    board, winner, counter = create_board(), 0, 1
-    while winner == 0:
+    board, winner, counter = create_board(), -10, 1
+    while winner == -10:
         for player in [1, 2]:
             board = player_dict(board, player, player_type_dict[player])
             winner = evaluate_tial(board)
