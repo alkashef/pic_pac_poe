@@ -11,7 +11,12 @@ XOboard = [[2,2,2],
            [2,2,2]]
 
 def get_empty_cells(board):
-    pass
+    empty_cells = set()
+    for i, row in enumerate(board):
+        for j, _ in enumerate(row):
+            if board[i][j] == 2:
+                empty_cells.add( (i, j) )
+    return empty_cells
 
 
 def random_bot(board, role):
@@ -22,3 +27,5 @@ def random_bot(board, role):
     x, y = random.randint(0, len(emptyCells)-1)
     board[x][y] = role
     return board
+
+print(get_empty_cells(XOboard))
