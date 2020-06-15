@@ -129,6 +129,7 @@ dmypy.json
 .pyre/
 
 # Project folders
-.idea
-.spyproject
-.vscode
+.idea/
+.spyproject/
+.vscode/
+
