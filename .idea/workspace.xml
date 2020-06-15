@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="15cfea59-8924-4278-b5ac-34dd5e9f1938" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/BuildingBlocks/HeuristicBot/dummy.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BuildingBlocks/Tree/dummy.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BuildingBlocks/UI/dummy.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/BuildingBlocks/dummy.txt" beforeDir="false" />
-    </list>
+    <list default="true" id="15cfea59-8924-4278-b5ac-34dd5e9f1938" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,7 +9,29 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/BuildingBlocks/Engine/Engine.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/BuildingBlocks/Engine/Player.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/BuildingBlocks/Engine/run.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="e#0#46#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -44,6 +61,17 @@
               <item name="pic_pac_poe" type="b2602c69:ProjectViewProjectNode" />
               <item name="pic_pac_poe" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="pic_pac_poe" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pic_pac_poe" type="462c0819:PsiDirectoryNode" />
+              <item name="BuildingBlocks" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pic_pac_poe" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pic_pac_poe" type="462c0819:PsiDirectoryNode" />
+              <item name="BuildingBlocks" type="462c0819:PsiDirectoryNode" />
+              <item name="Engine" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -53,6 +81,15 @@
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
+  </component>
+  <component name="PyConsoleOptionsProvider">
+    <option name="myPythonConsoleState">
+      <console-settings module-name="pic_pac_poe" is-module-sdk="true">
+        <option name="myUseModuleSdk" value="true" />
+        <option name="myModuleName" value="pic_pac_poe" />
+      </console-settings>
+    </option>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -119,5 +156,35 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/BuildingBlocks/Engine/Engine.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BuildingBlocks/Engine/Player.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BuildingBlocks/Engine/run.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#46#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>
