@@ -16,7 +16,7 @@ class Board:
                  , np.where(self.board.flatten() == self.empty_slots_mark)[0].astype(int))
         return list(zip(a[0], (a[1] - self.n * a[0])))
 
-    def is_tie(self):
+    def game_tie(self):
         if self.board.sum() > 0:
             return 1
 
@@ -48,13 +48,3 @@ class Board:
         evaluate = [x for x in helper if x in player_marks]
         if len(evaluate) > 0:
             return evaluate[0]
-
-    def game_end(self):
-        if self.game_won() in (1,0):
-            print('game won')
-            return 1
-        elif self.is_tie() == 1:
-            print('tie')
-            return 1
-        else:
-            return 0
