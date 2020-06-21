@@ -57,7 +57,7 @@ class Board:
         if len(evaluate) > 0:
             return evaluate[0]
 
-    def game_end(self, player):
+    def game_end(self):
         """
 
         Args:
