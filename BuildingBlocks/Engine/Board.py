@@ -8,13 +8,21 @@ class Board:
         self.empty_slots_mark = empty_slots_mark
 
     def play_turn(self, chosen_location, mark):
+        """
+
+        Args:
+            chosen_location (tuple):
+            mark (int):
+
+        Returns:
+
+        """
         self.board[chosen_location] = mark
 
     def empty_slots(self):
-        # Empty slots vector of tuples
-        a = ((np.where(self.board.flatten() == self.empty_slots_mark)[0] / self.n).astype(int)
-                 , np.where(self.board.flatten() == self.empty_slots_mark)[0].astype(int))
-        return list(zip(a[0], (a[1] - self.n * a[0])))
+        helper = ((np.where(self.board.flatten() == self.empty_slots_mark)[0] / self.n).astype(int),
+                  np.where(self.board.flatten() == self.empty_slots_mark)[0].astype(int))
+        return list(zip(helper[0], (helper[1] - self.n * helper[0])))
 
     def game_tie(self):
         if self.board.sum() > 0:
@@ -48,3 +56,21 @@ class Board:
         evaluate = [x for x in helper if x in player_marks]
         if len(evaluate) > 0:
             return evaluate[0]
+
+    def game_end(self, player):
+        """
+
+        Args:
+            player (Player): Player that has the current turn
+
+        Returns: int whether the current board game ended or not. And if it ended returns the winning player.
+
+        """
+        if self.game_won() == 0:
+            return 0
+        elif self.game_won() == 1:
+            return 1
+        elif self.game_tie() == 1:
+            return -1
+        else:
+            return -10
