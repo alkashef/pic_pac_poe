@@ -22,7 +22,7 @@ import Role
 
 
 
-class Testing_RandomPlayer:
+class Testing_RandomPlayer(unittest.TestCase):
 
     def test_did_it_play(self):
         player = RandomPlayer()
