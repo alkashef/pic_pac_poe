@@ -27,8 +27,10 @@ class Board:
     def tanspose(self):
         for i in range(3):
             for j in range(3):
+                temp = self.board[i][j]
                 self.board[i][j] = self.board[j][i]
-
+                self.board[j][i] =  temp
+                
     def get_winning_cells_for(self, role):
 
         # TODO: Generalize the following 2 loops. 
