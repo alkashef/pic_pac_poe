@@ -39,7 +39,7 @@ class Game:
             sleep(1)
             self.round_number += 1
             player_in_turn = self.current_turn()
-            play = player_in_turn.play_tactic(self.Board)
+            play = player_in_turn.play(self.Board)
             self.Board.play_turn(play, player_in_turn.mark)
             self.winner = self.Board.game_end()
             self.print_game()
