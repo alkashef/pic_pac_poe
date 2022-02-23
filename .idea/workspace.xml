@@ -5,6 +5,18 @@
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/pic_pac_poe.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/pic_pac_poe.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BuildingBlocks/Bots/Board.py" beforeDir="false" afterPath="$PROJECT_DIR$/BuildingBlocks/Bots/Board.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BuildingBlocks/Bots/HeuristicPlayer.py" beforeDir="false" afterPath="$PROJECT_DIR$/BuildingBlocks/Bots/HeuristicPlayer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BuildingBlocks/Bots/RandomPlayer.py" beforeDir="false" afterPath="$PROJECT_DIR$/BuildingBlocks/Bots/RandomPlayer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BuildingBlocks/Bots/Role.py" beforeDir="false" afterPath="$PROJECT_DIR$/BuildingBlocks/Bots/Role.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BuildingBlocks/Bots/test/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/BuildingBlocks/Bots/test/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BuildingBlocks/Bots/test/test_RandomPlayer.py" beforeDir="false" afterPath="$PROJECT_DIR$/BuildingBlocks/Bots/test/test_RandomPlayer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BuildingBlocks/Engine/Board.py" beforeDir="false" afterPath="$PROJECT_DIR$/BuildingBlocks/Engine/Board.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BuildingBlocks/Engine/Demo.py" beforeDir="false" afterPath="$PROJECT_DIR$/BuildingBlocks/Engine/Demo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BuildingBlocks/Engine/Game.py" beforeDir="false" afterPath="$PROJECT_DIR$/BuildingBlocks/Engine/Game.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BuildingBlocks/Engine/HumanPlayer.py" beforeDir="false" afterPath="$PROJECT_DIR$/BuildingBlocks/Engine/HumanPlayer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BuildingBlocks/Engine/Player.py" beforeDir="false" afterPath="$PROJECT_DIR$/BuildingBlocks/Engine/Player.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BuildingBlocks/Engine/RandomPlayer.py" beforeDir="false" afterPath="$PROJECT_DIR$/BuildingBlocks/Engine/RandomPlayer.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,8 +26,15 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="ProjectId" id="1dRAPJLPWi87yVTmxLw1mhPWpdk" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../digital_drawing" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="PyConsoleOptionsProvider">
@@ -56,7 +75,7 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/.." />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
@@ -84,34 +103,10 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="734" y="354" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1592240489128">
+    <state x="1060" y="454" key="FileChooserDialogImpl" timestamp="1608905439733">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="734" y="354" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1592240489128" />
-    <state x="1060" y="454" key="FileChooserDialogImpl" timestamp="1592240399044">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state x="1060" y="454" key="FileChooserDialogImpl/0.0.2560.1400@0.0.2560.1400" timestamp="1592240399044" />
-    <state width="2517" height="401" key="GridCell.Tab.0.bottom" timestamp="1592240490931">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state width="2517" height="401" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1592240490931" />
-    <state width="2517" height="401" key="GridCell.Tab.0.center" timestamp="1592240490930">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state width="2517" height="401" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1592240490930" />
-    <state width="2517" height="401" key="GridCell.Tab.0.left" timestamp="1592240490930">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state width="2517" height="401" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1592240490930" />
-    <state width="2517" height="401" key="GridCell.Tab.0.right" timestamp="1592240490930">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state width="2517" height="401" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1592240490930" />
-    <state x="781" y="344" key="SettingsEditor" timestamp="1592240457026">
-      <screen x="0" y="0" width="2560" height="1400" />
-    </state>
-    <state x="781" y="344" key="SettingsEditor/0.0.2560.1400@0.0.2560.1400" timestamp="1592240457026" />
+    <state x="1060" y="454" key="FileChooserDialogImpl/0.0.2560.1400@0.0.2560.1400" timestamp="1608905439733" />
   </component>
   <component name="masterDetails">
     <states>
